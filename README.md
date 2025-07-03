@@ -8,8 +8,7 @@
 ## 📸 Demo Screenshots
 
 Here are a few visual highlights from the application:
-- "Mobile interface demo screenshot"
-![Image](https://github.com/user-attachments/assets/e6f78cfd-63f6-45cf-b36f-8fe58021999c)
+![Image](https://github.com/user-attachments/assets/d469de51-32b5-402d-bbb0-666a84f0d369)
 
 A Full Stack Project for Lightweight Feedback System.
 A structured feedback platform designed for managers and employees. 
