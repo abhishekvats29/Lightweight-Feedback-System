@@ -99,8 +99,11 @@ docker run -p 5000:5000 --name feedback-app feedback-backend
 Demo Screenshot of Login Page
 ![Image](https://github.com/user-attachments/assets/d91149e7-dae7-47b3-a85c-0aa503ee8717)
 
-Demo screenshot of SignUP Page
+Demo Screenshot of SignUP Page
 ![Image](https://github.com/user-attachments/assets/940c9cb9-5d60-4020-bed6-2dd31ddb2572)
+
+Demo Screenshot of Employee Dashboard
+![Image](https://github.com/user-attachments/assets/05eee328-32a2-4ac2-99b0-159216ee3dff)
 
 
 
