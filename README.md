@@ -8,14 +8,14 @@ Built using React and Flask with SQLite, and fully containerized via Docker.
 ---
 ## Core Features
 
--🔒 Role-based Authentication (Manager, Employee)
--📝 Feedback Submission: strengths, improvements, sentiment
--📃 Feedback History & Timeline View
--🧭 Role-specific Dashboards
--🔍 Search & Filter by keywords/tags
--🧾 Export Feedback to PDF
--✏️ Edit/Delete Feedback (by Manager)
--👀 Acknowledge Feedback (by Employee)
+- 🔒 Role-based Authentication (Manager, Employee)
+- 📝 Feedback Submission: strengths, improvements, sentiment
+- 📃 Feedback History & Timeline View
+- 🧭 Role-specific Dashboards
+- 🔍 Search & Filter by keywords/tags
+- 🧾 Export Feedback to PDF
+- ✏️ Edit/Delete Feedback (by Manager)
+- 👀 Acknowledge Feedback (by Employee)
 
 
 ## 🧰 Tech Stack & Design Decisions
