@@ -1,5 +1,16 @@
 # 🚀 Lightweight Feedback System
 
+## 🚀 Live Demo
+
+👉 [Click here to view the live application] 
+(https://lightweight-feedback-system-1.netlify.app/)
+
+## 📸 Demo Screenshots
+
+Here are a few visual highlights from the application:
+- "Mobile interface demo screenshot"
+![Image](https://github.com/user-attachments/assets/e6f78cfd-63f6-45cf-b36f-8fe58021999c)
+
 A Full Stack Project for Lightweight Feedback System.
 A structured feedback platform designed for managers and employees. 
 This application supports role-based login, feedback submission, history tracking, sentiment analysis, and more.
@@ -98,7 +109,7 @@ docker run -p 5000:5000 --name feedback-app feedback-backend
 
 - "Mobile interface demo screenshot"
 
-![Image](https://github.com/user-attachments/assets/ef4635d1-11a2-4fdc-9314-bdaf11c4c73e)
+![Image](https://github.com/user-attachments/assets/e6f78cfd-63f6-45cf-b36f-8fe58021999c)
 
 - Desktop Interface View
   
