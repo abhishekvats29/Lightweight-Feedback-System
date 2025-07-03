@@ -96,6 +96,12 @@ docker run -p 5000:5000 --name feedback-app feedback-backend
 
 ## 📸 Demo Screenshot
 
+- "Mobile interface demo screenshot"
+
+![Image](https://github.com/user-attachments/assets/ef4635d1-11a2-4fdc-9314-bdaf11c4c73e)
+
+- Desktop Interface View
+  
 Demo Screenshot of Login Page
 ![Image](https://github.com/user-attachments/assets/d91149e7-dae7-47b3-a85c-0aa503ee8717)
 
