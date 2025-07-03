@@ -66,38 +66,38 @@ Built using React and Flask with SQLite, and fully containerized via Docker.
 ## 🛠️ Setup Instructions
 
 ## 🖥️ Frontend Setup (React + TailwindCSS)
-### Navigate to the frontend directory
+#### Navigate to the frontend directory
 cd frontend
-### Install dependencies
+#### Install dependencies
 npm install
-### Start the development server
+#### Start the development server
 npm run dev
 
 ## Backend Setup (Flask + SQLite)
 
-### Navigate to the backend directory
+#### Navigate to the backend directory
 cd backend
-### (Optional) Create and activate a virtual environment
+#### (Optional) Create and activate a virtual environment
 python -m venv venv
 source venv/bin/activate    # On Windows use: venv\Scripts\activate
-### Install backend dependencies
+#### Install backend dependencies
 pip install -r requirements.txt
-### Run the Flask backend
+#### Run the Flask backend
 python app.py
 
 ## 🐳 Docker Setup (Backend Only)
 
-### Navigate to the backend directory
+#### Navigate to the backend directory
 cd backend
-### Build the Docker image
+#### Build the Docker image
 docker build -t feedback-backend .
-### Run the container
+#### Run the container
 docker run -p 5000:5000 --name feedback-app feedback-backend
 
 ## 📸 Demo Screenshot
 
 ![Demo Screenshot]
-()
+(![Image](https://github.com/user-attachments/assets/d91149e7-dae7-47b3-a85c-0aa503ee8717))
 
 ## 👨‍💻 Author
 Abhishek Vats
