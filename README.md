@@ -105,6 +105,9 @@ Demo Screenshot of SignUP Page
 Demo Screenshot of Employee Dashboard
 ![Image](https://github.com/user-attachments/assets/05eee328-32a2-4ac2-99b0-159216ee3dff)
 
+Demo Screenshot of Manager Dashboard history
+![Image](https://github.com/user-attachments/assets/876ead1c-6b77-4de1-b380-6fe6d7158de0)
+
 
 
 ## 👨‍💻 Author
