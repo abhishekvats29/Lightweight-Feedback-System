@@ -96,8 +96,13 @@ docker run -p 5000:5000 --name feedback-app feedback-backend
 
 ## 📸 Demo Screenshot
 
-![Demo Screenshot]
-(![Image](https://github.com/user-attachments/assets/d91149e7-dae7-47b3-a85c-0aa503ee8717))
+Demo Screenshot of Login Page
+![Image](https://github.com/user-attachments/assets/d91149e7-dae7-47b3-a85c-0aa503ee8717)
+
+Demo screenshot of SignUP Page
+![Image](https://github.com/user-attachments/assets/940c9cb9-5d60-4020-bed6-2dd31ddb2572)
+
+
 
 ## 👨‍💻 Author
 Abhishek Vats
