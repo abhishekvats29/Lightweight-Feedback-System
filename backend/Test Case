@@ -1,0 +1,70 @@
+import unittest
+from app import app
+from models import init_db
+
+class AuthTestCase(unittest.TestCase):
+    def setUp(self):
+        self.client = app.test_client()
+        app.config["TESTING"] = True
+        init_db()  # Make sure this creates a fresh test DB
+
+    def test_signup_success(self):
+        res = self.client.post('/api/auth/signup', json={
+            "name": "Test User",
+            "emp_id": "test001",
+            "password": "pass123",
+            "role": "employee",
+            "department": "HR"
+        })
+        self.assertEqual(res.status_code, 201)
+
+    def test_signup_existing_user(self):
+        self.client.post('/api/auth/signup', json={
+            "name": "User A",
+            "emp_id": "emp100",
+            "password": "testpass",
+            "role": "employee",
+            "department": "IT"
+        })
+        res = self.client.post('/api/auth/signup', json={
+            "name": "User A",
+            "emp_id": "emp100",
+            "password": "testpass",
+            "role": "employee",
+            "department": "IT"
+        })
+        self.assertEqual(res.status_code, 409)
+
+    def test_login_success(self):
+        self.client.post('/api/auth/signup', json={
+            "name": "LoginUser",
+            "emp_id": "empLogin",
+            "password": "pass123",
+            "role": "employee",
+            "department": "Sales"
+        })
+        res = self.client.post('/api/auth/login', json={
+            "emp_id": "empLogin",
+            "password": "pass123",
+            "role": "employee"
+        })
+        self.assertEqual(res.status_code, 200)
+        self.assertIn("token", res.get_json())
+
+    def test_login_invalid_password(self):
+        self.client.post('/api/auth/signup', json={
+            "name": "WrongPass",
+            "emp_id": "empWP",
+            "password": "rightpass",
+            "role": "employee",
+            "department": "Ops"
+        })
+        res = self.client.post('/api/auth/login', json={
+            "emp_id": "empWP",
+            "password": "wrongpass",
+            "role": "employee"
+        })
+        self.assertEqual(res.status_code, 401)
+
+if __name__ == "__main__":
+    unittest.main()

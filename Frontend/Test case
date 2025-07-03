@@ -1,0 +1,71 @@
+import { render, screen, fireEvent } from "@testing-library/react";
+import { BrowserRouter } from "react-router-dom";
+import Signup from "../pages/Signup";
+import Login from "../pages/Login";
+import FeedbackRequest from "../pages/FeedbackRequest";
+import AnonymousFeedback from "../pages/AnonymousFeedback";
+import "@testing-library/jest-dom";
+
+// Helper
+const renderWithRouter = (component) =>
+  render(<BrowserRouter>{component}</BrowserRouter>);
+
+describe("Frontend Full App Test", () => {
+  // ------------------ Signup -------------------
+  it("renders Signup page and handles empty submission", () => {
+    renderWithRouter(<Signup />);
+    fireEvent.click(screen.getByText("Signup"));
+    expect(screen.getByText("All fields are required")).toBeInTheDocument();
+  });
+
+  it("allows input in Signup form fields", () => {
+    renderWithRouter(<Signup />);
+    fireEvent.change(screen.getByPlaceholderText("Enter your full name"), {
+      target: { value: "Alice" },
+    });
+    expect(screen.getByPlaceholderText("Enter your full name")).toHaveValue("Alice");
+  });
+
+  // ------------------ Login -------------------
+  it("renders Login page and shows error if empty submit", () => {
+    renderWithRouter(<Login />);
+    fireEvent.click(screen.getByText("Login"));
+    expect(screen.getByText("All fields are required")).toBeInTheDocument();
+  });
+
+  it("allows input in Login form fields", () => {
+    renderWithRouter(<Login />);
+    fireEvent.change(screen.getByPlaceholderText("Enter your Employee ID"), {
+      target: { value: "emp123" },
+    });
+    expect(screen.getByPlaceholderText("Enter your Employee ID")).toHaveValue("emp123");
+  });
+
+  // ------------------ Feedback Request -------------------
+  it("renders FeedbackRequest and stores in localStorage", () => {
+    renderWithRouter(<FeedbackRequest />);
+    fireEvent.change(screen.getByPlaceholderText("manager@example.com"), {
+      target: { value: "manager01" },
+    });
+    fireEvent.change(screen.getByPlaceholderText("Why are you requesting feedback?"), {
+      target: { value: "Need feedback on my project." },
+    });
+    fireEvent.click(screen.getByText("Send Feedback Request"));
+    const stored = JSON.parse(localStorage.getItem("feedbackRequests"));
+    expect(stored.length).toBeGreaterThan(0);
+  });
+
+  // ------------------ Anonymous Feedback -------------------
+  it("renders AnonymousFeedback and stores in localStorage", () => {
+    renderWithRouter(<AnonymousFeedback />);
+    fireEvent.change(screen.getByPlaceholderText("What went well?"), {
+      target: { value: "Great team collaboration" },
+    });
+    fireEvent.change(screen.getByPlaceholderText("Suggestions for improvement"), {
+      target: { value: "Improve meeting efficiency" },
+    });
+    fireEvent.click(screen.getByText("Submit Anonymous Feedback"));
+    const stored = JSON.parse(localStorage.getItem("anonymousFeedbacks"));
+    expect(stored.length).toBeGreaterThan(0);
+  });
+});
