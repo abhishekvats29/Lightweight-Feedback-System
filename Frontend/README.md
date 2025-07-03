@@ -1,4 +1,4 @@
-This Folder is for fronten Part of this full stack project Lightweight-feedback-system.
+This Folder is for frontend Part of this full stack project Lightweight-feedback-system.
 
 ### Tech Stack
 
