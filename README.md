@@ -1,11 +1,11 @@
-# 🚀 Lightweight Feedback System
+# Lightweight Feedback System
 
-## 🚀 Live Demo
+## Live Demo
 
 👉 [Click here to view the live application] 
 (https://lightweight-feedback-system-1.netlify.app/)
 
-## 📸 Demo Screenshots
+## Demo Screenshots
 
 Here are a few visual highlights from the application:
 ![Image](https://github.com/user-attachments/assets/d469de51-32b5-402d-bbb0-666a84f0d369)
@@ -28,7 +28,7 @@ Built using React and Flask with SQLite, and fully containerized via Docker.
 - 👀 Acknowledge Feedback (by Employee)
 
 
-## 🧰 Tech Stack & Design Decisions
+## Tech Stack & Design Decisions
 
 ### Frontend:
 - **React + Tailwind CSS**: Fast UI development with clean responsive design.
@@ -41,7 +41,7 @@ Built using React and Flask with SQLite, and fully containerized via Docker.
 - **JWT (Flask-JWT-Extended)**: Role-based secure authentication system.
 
 ---
-## ⚙️ Tech Stack
+## Tech Stack
 
 | Layer      | Tech                      |
 |------------|---------------------------|
@@ -73,7 +73,7 @@ Built using React and Flask with SQLite, and fully containerized via Docker.
 
 ---
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 ## 🖥️ Frontend Setup (React + TailwindCSS)
 #### Navigate to the frontend directory
@@ -95,7 +95,7 @@ pip install -r requirements.txt
 #### Run the Flask backend
 python app.py
 
-## 🐳 Docker Setup (Backend Only)
+## Docker Setup (Backend Only)
 
 #### Navigate to the backend directory
 cd backend
