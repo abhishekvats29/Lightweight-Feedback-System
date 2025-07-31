@@ -1,4 +1,8 @@
 # Lightweight Feedback System
+A Full Stack Project for Lightweight Feedback System.
+A structured feedback platform designed for managers and employees. 
+This application supports role-based login, feedback submission, history tracking, sentiment analysis, and more.
+Built using React and Flask with SQLite, and fully containerized via Docker.
 
 ## Live Demo
 
@@ -9,11 +13,6 @@
 
 Here are a few visual highlights from the application:
 ![Image](https://github.com/user-attachments/assets/d469de51-32b5-402d-bbb0-666a84f0d369)
-
-A Full Stack Project for Lightweight Feedback System.
-A structured feedback platform designed for managers and employees. 
-This application supports role-based login, feedback submission, history tracking, sentiment analysis, and more.
-Built using React and Flask with SQLite, and fully containerized via Docker.
 
 ---
 ## Core Features
