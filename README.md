@@ -74,7 +74,7 @@ Here are a few visual highlights from the application:
 
 ## Setup Instructions
 
-## 🖥️ Frontend Setup (React + TailwindCSS)
+## Frontend Setup (React + TailwindCSS)
 #### Navigate to the frontend directory
 cd frontend
 #### Install dependencies
