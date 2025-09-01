@@ -102,7 +102,7 @@ docker build -t feedback-backend .
 #### Run the container
 docker run -p 5000:5000 --name feedback-app feedback-backend
 
-## 📸 Demo Screenshot
+## Demo Screenshot
 
 - "Mobile interface demo screenshot"
 
