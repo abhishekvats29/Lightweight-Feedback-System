@@ -6,8 +6,7 @@ Built using React and Flask with SQLite, and fully containerized via Docker.
 
 ## Live Demo
 
-👉 [Click here to view the live application] 
-(https://lightweight-feedback-system-1.netlify.app/)
+[👉 Click here to view the live application](https://lightweight-feedback-system-1.netlify.app/)
 
 ## Demo Screenshots
 
@@ -17,14 +16,14 @@ Here are a few visual highlights from the application:
 ---
 ## Core Features
 
-- 🔒 Role-based Authentication (Manager, Employee)
-- 📝 Feedback Submission: strengths, improvements, sentiment
-- 📃 Feedback History & Timeline View
-- 🧭 Role-specific Dashboards
-- 🔍 Search & Filter by keywords/tags
-- 🧾 Export Feedback to PDF
-- ✏️ Edit/Delete Feedback (by Manager)
-- 👀 Acknowledge Feedback (by Employee)
+- Role-based Authentication (Manager, Employee)
+- Feedback Submission: strengths, improvements, sentiment
+- Feedback History & Timeline View
+- Role-specific Dashboards
+- Search & Filter by keywords/tags
+- Export Feedback to PDF
+- Edit/Delete Feedback (by Manager)
+- Acknowledge Feedback (by Employee)
 
 
 ## Tech Stack & Design Decisions
@@ -59,7 +58,7 @@ Here are a few visual highlights from the application:
 - Frontend stored feedback (anonymous/request) in `localStorage` for simplicity and demo scope.
 - Dockerized backend for consistent deployment experience.
 
-  ## 📡 API Endpoints
+  ## API Endpoints
 
 | Method | Endpoint               | Description                                  | Access        |
 |--------|------------------------|----------------------------------------------|---------------|
