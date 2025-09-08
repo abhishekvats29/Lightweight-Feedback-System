@@ -4,7 +4,7 @@ A structured feedback platform designed for managers and employees.
 This application supports role-based login, feedback submission, history tracking, sentiment analysis, and more.
 Built using React and Flask with SQLite, and fully containerized via Docker.
 
-## Live Demo
+## Live Site
 
 [Click here to view the live application](https://lightweight-feedback-system-1.netlify.app/)
 
