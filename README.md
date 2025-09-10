@@ -128,7 +128,9 @@ Demo Screenshot of Manager Dashboard history
 Abhishek Vats
 
 ## 📄 License
-This project is developed as part of a Full Stack Developer Assignment.
+- This project is developed as part of a Full Stack Developer Assignment.
+- The code is intended solely for the purpose of the assignment and Gaining Practical knowledge.
+- Unauthorized use, distribution, or commercial use is prohibited without explicit permission.
 
 
 
