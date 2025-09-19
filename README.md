@@ -129,7 +129,7 @@ Abhishek Vats
 
 ## 📄 License
 - This project is developed as part of a Full Stack Developer Assignment.
-- The code is intended solely for the purpose of the assignment and Gaining Practical knowledge.
+- The code is intended solely for the purpose of the Gaining Practical knowledge.
 - Unauthorized use, distribution, or commercial use is prohibited without explicit permission.
 
 
