@@ -28,3 +28,5 @@ def submit_feedback():
     ))
     db.commit()
     return jsonify({'message': 'Feedback submitted'})
+    
+    # print("message submitted successfully")
