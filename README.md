@@ -8,7 +8,7 @@ Built using React and Flask with SQLite, and fully containerized via Docker.
 
 [Click here to view the live application](https://lightweight-feedback-system-1.netlify.app/)
 
-## Demo Screenshots
+## Demo Snapshots
 
 Here are a few visual highlights from the application:
 ![Image](https://github.com/user-attachments/assets/d469de51-32b5-402d-bbb0-666a84f0d369)
